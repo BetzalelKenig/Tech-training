@@ -7,12 +7,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { CoursCardComponent } from './cours-card/cours-card.component';
 import { LessonComponent } from './lesson/lesson.component';
+import { CoursLandingPageComponent } from './cours-landing-page/cours-landing-page.component';
+import { AllCoursesComponent } from './all-courses/all-courses.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursCardComponent,
-    LessonComponent
+    LessonComponent,
+    CoursLandingPageComponent,
+    AllCoursesComponent
   ],
   imports: [
     BrowserModule,
